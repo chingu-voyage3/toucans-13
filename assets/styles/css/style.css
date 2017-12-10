@@ -9,7 +9,10 @@ Team Members: Aaron Onojaife, laurailona, Vadim Klimets, Jordan Gill
 
 /* Global Styles */
 body {
-
+margin: 0;
+padding: 0;
+font-family: signika;
+font-weight: 300;
 }
 /* Global Styles END */
 
