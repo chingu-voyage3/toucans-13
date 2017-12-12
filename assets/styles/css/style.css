@@ -17,7 +17,44 @@ font-weight: 300;
 /* Global Styles END */
 
 /* Header */
+header {
+  display: block;
+  background-color: #40596b;
+  width: 100%;
+  margin: 0;
+  padding: 18px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
+.top-nav {
+  margin: 0;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav li a {
+  color: #ffd05a; 
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav li a:hover {
+  color: #fff;
+}
 /* Header END*/
 
 /* Intro */
