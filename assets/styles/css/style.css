@@ -102,6 +102,12 @@ header nav li a:hover {
   max-width: 100%;
 }
 
+.button-container {
+  width: 300px;
+  height: 70px;
+  margin: auto;
+}
+
 .about-container .slack-button {
   display: flex;
   flex-flow: row nowrap;
@@ -109,6 +115,7 @@ header nav li a:hover {
   align-items: center;
   margin: 0 auto;
   width: 300px;
+  height: 75px;
   background-color: #fff;
   color: rgba(0,0,0,0.75);
   border: none;
@@ -117,6 +124,14 @@ header nav li a:hover {
   line-height: 1;
   padding: 1rem;
   font-weight: 300;
+  transition: width 1s, height 1s, background-color 0.2s;
+}
+
+.about-container .slack-button:hover {
+  width: 295px;
+  height: 70px;
+  background-color: #eef9fd;
+  cursor: pointer;
 }
 
 .about-container .slack-button img {
