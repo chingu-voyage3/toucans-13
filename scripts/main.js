@@ -18,5 +18,19 @@ Team Members: Aaron Onojaife, laurailona, Vadim Klimets, Jordan Gill
 
 
 /* To-the-top button */
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.to-the-top').fadeIn();
+		} else {
+			$('.to-the-top').fadeOut();
+		}
+	});
+	$('.to-the-top').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+
+});
 
 /* To-the-top button END */
