@@ -16,6 +16,39 @@ body {
 }
 /* Global Styles END */
 
+/*to-the-top*/
+.to-the-top{
+	width: 38px;
+	height: 38px;
+  overflow: hidden;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	display: none;
+	background: url('../../../images/to-the-top.svg') no-repeat;
+  background-size: 34px;
+  background-position: center;
+}
+.to-the-top:hover{
+  -webkit-transform: scale(0.94);
+  -ms-transform: scale(0.94);
+  transform: scale(0.94);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+}
+
+.yellow-button {
+  background-color: #ffd05a;
+  border-radius: 4px;
+  padding: 4px;
+  display: none;
+  cursor: pointer;
+}
+/*to-the-top END*/
+
+
 /* Header */
 header {
   display: block;
@@ -46,7 +79,7 @@ header nav li {
 }
 
 header nav li a {
-  color: #ffd05a; 
+  color: #ffd05a;
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
