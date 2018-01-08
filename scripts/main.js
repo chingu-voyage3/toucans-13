@@ -3,6 +3,10 @@ Team Toucan-13 part of the chingu-voyage-3
 Team Members: Aaron Onojaife, laurailona, Vadim Klimets, Jordan Gill
 */
 
+/* Slack Buttons */
+
+/*Slack Buttons END */
+
 /* Initial Fade-In effect */
 
 /* Initial Fade-In effect END */
