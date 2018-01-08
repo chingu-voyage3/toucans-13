@@ -253,26 +253,14 @@ code {
 
 /* Start using tickybot today section */
 .start-using-tickybot-today-section {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  display: block;
   font-family: signika;
   font-weight: 300;
   font-size: 1.25rem;
   margin: 0 auto;
-
+  text-align: center;
 
 }
-
-.p4 {
-  grid-column:4/11 ;
-  grid-row: 2/3;
-}
-.p5 {
-  grid-column: 4/11 ;
-  grid-row: 2/3;
-}
-
 
 /* Start using tickybot today section END */
 
@@ -283,18 +271,12 @@ code {
 
 /* Footer */
 footer {
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  grid-template-rows: repeat(1,1fr);
+  display: block;
   background-color: #40596b;
   color: white;
   font-family: signika;
   font-weight: 300;
-  font-size: 1.25rem
-
-
-
-
-
+  font-size: 1.25rem;
+  text-align: center;
 }
 /* Footer END*/
