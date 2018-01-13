@@ -297,6 +297,19 @@ code {
   background-color: #fafafa;
 
 }
+
+.fadeout {
+  opacity: 0; 
+  visibility: hidden;
+  transition: 1s opacity;
+  -webkit-transition: 1s opacity;
+}
+   
+.fadein { 
+  opacity: 1; 
+  visibility: visible;
+}
+
 /* How it works section END*/
 
 

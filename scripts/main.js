@@ -14,6 +14,34 @@ Team Members: Aaron Onojaife, laurailona, Vadim Klimets, Jordan Gill
 
 /* On-Scroll Fade-In effect */
 
+let fadeinOnScroll = function() {
+  let firstCard = document.getElementById("first-card");
+  let secondCard = document.getElementById("second-card");
+  let thirdCard = document.getElementById("third-card");
+
+  let startOfSection = document.getElementById("how-it-works-header");
+  let bounding = startOfSection.getBoundingClientRect(); //checks position of element
+  if( //checks if element is visible on screen
+    bounding.top >= 0 &&
+    bounding.left >= 0 &&
+    bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
+   bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+  ) {
+    function fadeinFirstCard() {
+      firstCard.classList.add("fadein");
+    };
+    function fadeinSecondCard() {
+      secondCard.classList.add("fadein");
+    };
+    function fadeinThirdCard() {
+      thirdCard.classList.add("fadein");
+    };
+    setTimeout(fadeinFirstCard, 500);
+    setTimeout(fadeinSecondCard, 1500);
+    setTimeout(fadeinThirdCard, 2500);
+  };
+};
+window.addEventListener("scroll", fadeinOnScroll);
 /* On-Scroll Fade-In effect END*/
 
 
