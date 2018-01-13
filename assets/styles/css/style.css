@@ -279,7 +279,6 @@ code {
   padding-bottom: 40px;
   padding-left: 0px;
   margin-top: 60px;
-
 }
 
 .card_img {
@@ -287,6 +286,8 @@ code {
   margin-right: 50px;
   width: 300px;
   background-color: #40596b;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .card_description {
@@ -301,13 +302,19 @@ code {
 .fadeout {
   opacity: 0; 
   visibility: hidden;
-  transition: 1s opacity;
-  -webkit-transition: 1s opacity;
+  transition: 1s opacity, 1s transform;
+  -webkit-transition: 1s opacity, 1s transform;
+  transform: translate(0, -20px);
+  -ms-transform: translate(0, -20px);
+  -webkit-transform: translate(0, -20px);
 }
    
 .fadein { 
   opacity: 1; 
   visibility: visible;
+  transform: none;
+  -ms-transform: none;
+  -webkit-transform: none;
 }
 
 /* How it works section END*/
