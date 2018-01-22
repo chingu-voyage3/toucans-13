@@ -145,7 +145,7 @@ header nav li a:hover {
   margin: auto;
 }
 
-.about-container .slack-button {
+.slack-button {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -163,19 +163,19 @@ header nav li a:hover {
   transition: transform 1s 0.3s,  background-color 0.2s;
 }
 
-.about-container .slack-button:hover {
+.slack-button:hover {
   transform: scale(0.97);
   background-color: #eef9fd;
   cursor: pointer;
 }
 
-.about-container .slack-button img {
+.slack-button img {
   width: 40px;
   margin: 0 1rem 0 0;
   transition: 0.5s;
 }
 
-.about-container .slack-button:hover img {
+.slack-button:hover img {
   transform: rotate(17deg) scale(1.4);
 }
 .button-flex-item {
@@ -334,6 +334,15 @@ code {
   margin: 0 auto;
   text-align: center;
 
+}
+
+.second-slack-button {
+  background-color: #40596b;
+  color: #fff;
+}
+
+.second-slack-button:hover {
+  background-color: #4f4f4f;
 }
 
 /* Start using tickybot today section END */
