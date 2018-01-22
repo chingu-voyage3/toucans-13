@@ -8,6 +8,9 @@ Team Members: Aaron Onojaife, laurailona, Vadim Klimets, Jordan Gill
 /*Slack Buttons END */
 
 /* Initial Fade-In effect */
+$(document).ready(function(){
+  $('.fadein-wrapper').fadeIn(3000).removeClass('hidden');
+});
 
 /* Initial Fade-In effect END */
 
