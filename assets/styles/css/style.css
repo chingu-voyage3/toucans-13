@@ -353,4 +353,9 @@ footer {
   font-size: 1.25rem;
   text-align: center;
 }
+
+/*.githubLink {
+  text-decoration: none;
+  color: white;}*/
+.fixMe {font-size: 20px;}
 /* Footer END*/
