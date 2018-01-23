@@ -383,4 +383,7 @@ footer {
   font-size: 0.80rem;
   text-align: center;
 }
+footer a {
+  color: inherit;
+}
 /* Footer END*/
