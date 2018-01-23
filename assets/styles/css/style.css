@@ -18,6 +18,13 @@ body {
 .fadein-wrapper {
   display: none;
 }
+
+.spacer {
+  height: 140px;
+}
+.spacer-small {
+  height: 60px;
+}
 /* Global Styles END */
 
 /*to-the-top*/
@@ -103,6 +110,8 @@ header nav li a:hover {
   margin-top: 63px;
   background-color: #55c0ec;
   text-align: center;
+  padding-top:120px;
+  padding-bottom:120px;
 }
 
 .about-container h1 {
@@ -263,6 +272,14 @@ code {
 
 }
 
+.title-works {
+  font-size: 2.00em;
+  letter-spacing: -.125rem;
+  line-height: 1.25;
+  padding-top: 20px;
+  justify-self: center;
+}
+
 .section-title {
   display: block;
 
@@ -326,14 +343,18 @@ code {
 
 
 /* Start using tickybot today section */
-.start-using-tickybot-today-section {
-  display: block;
-  font-family: signika;
-  font-weight: 300;
+#start-using-tickybot-today {
+  line-height: 1.5;
   font-size: 1.25rem;
-  margin: 0 auto;
-  text-align: center;
-
+  color: rgba(0,0,0,.75);
+  padding-bottom:20px;
+}
+.ptitle {
+  font-size: 2.00em;
+  letter-spacing: -.125rem;
+  line-height: 1.25;
+  padding-top: 40px;
+  justify-self: center;
 }
 
 .second-slack-button {
@@ -355,11 +376,14 @@ code {
 /* Footer */
 footer {
   display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #40596b;
-  color: white;
-  font-family: signika;
-  font-weight: 300;
-  font-size: 1.25rem;
+  color: hsla(0,0%,100%,.75);
+  font-size: 0.80rem;
   text-align: center;
+}
+footer a {
+  color: inherit;
 }
 /* Footer END*/
