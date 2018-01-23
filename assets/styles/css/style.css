@@ -376,11 +376,11 @@ code {
 /* Footer */
 footer {
   display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #40596b;
-  color: white;
-  font-family: signika;
-  font-weight: 300;
-  font-size: 1.25rem;
+  color: hsla(0,0%,100%,.75);
+  font-size: 0.80rem;
   text-align: center;
 }
 /* Footer END*/
