@@ -18,6 +18,13 @@ body {
 .fadein-wrapper {
   display: none;
 }
+
+.spacer {
+  height: 140px;
+}
+.spacer-small {
+  height: 60px;
+}
 /* Global Styles END */
 
 /*to-the-top*/
@@ -103,6 +110,8 @@ header nav li a:hover {
   margin-top: 63px;
   background-color: #55c0ec;
   text-align: center;
+  padding-top:120px;
+  padding-bottom:120px;
 }
 
 .about-container h1 {
@@ -145,7 +154,7 @@ header nav li a:hover {
   margin: auto;
 }
 
-.about-container .slack-button {
+.slack-button {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -163,19 +172,19 @@ header nav li a:hover {
   transition: transform 1s 0.3s,  background-color 0.2s;
 }
 
-.about-container .slack-button:hover {
+.slack-button:hover {
   transform: scale(0.97);
   background-color: #eef9fd;
   cursor: pointer;
 }
 
-.about-container .slack-button img {
+.slack-button img {
   width: 40px;
   margin: 0 1rem 0 0;
   transition: 0.5s;
 }
 
-.about-container .slack-button:hover img {
+.slack-button:hover img {
   transform: rotate(17deg) scale(1.4);
 }
 .button-flex-item {
@@ -263,6 +272,14 @@ code {
 
 }
 
+.title-works {
+  font-size: 2.00em;
+  letter-spacing: -.125rem;
+  line-height: 1.25;
+  padding-top: 20px;
+  justify-self: center;
+}
+
 .section-title {
   display: block;
 
@@ -326,14 +343,27 @@ code {
 
 
 /* Start using tickybot today section */
-.start-using-tickybot-today-section {
-  display: block;
-  font-family: signika;
-  font-weight: 300;
+#start-using-tickybot-today {
+  line-height: 1.5;
   font-size: 1.25rem;
-  margin: 0 auto;
-  text-align: center;
+  color: rgba(0,0,0,.75);
+  padding-bottom:20px;
+}
+.ptitle {
+  font-size: 2.00em;
+  letter-spacing: -.125rem;
+  line-height: 1.25;
+  padding-top: 40px;
+  justify-self: center;
+}
 
+.second-slack-button {
+  background-color: #40596b;
+  color: #fff;
+}
+
+.second-slack-button:hover {
+  background-color: #4f4f4f;
 }
 
 /* Start using tickybot today section END */
@@ -346,16 +376,22 @@ code {
 /* Footer */
 footer {
   display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #40596b;
-  color: white;
-  font-family: signika;
-  font-weight: 300;
-  font-size: 1.25rem;
+  color: hsla(0,0%,100%,.75);
+  font-size: 0.80rem;
   text-align: center;
 }
+<<<<<<< HEAD
 
 /*.githubLink {
   text-decoration: none;
   color: white;}*/
 .fixMe {font-size: 20px;}
+=======
+footer a {
+  color: inherit;
+}
+>>>>>>> 7ca269c4f57682e875ae2b609421147937e59c94
 /* Footer END*/
