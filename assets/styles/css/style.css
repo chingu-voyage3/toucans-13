@@ -313,6 +313,9 @@ code {
 
 .card_description {
   padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 300px;
   margin-bottom: 50px;
   margin-right: 50px;
   margin-left: auto;
