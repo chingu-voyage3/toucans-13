@@ -18,6 +18,13 @@ body {
 .fadein-wrapper {
   display: none;
 }
+
+.spacer {
+  height: 140px;
+}
+.spacer-small {
+  height: 80px;
+}
 /* Global Styles END */
 
 /*to-the-top*/
