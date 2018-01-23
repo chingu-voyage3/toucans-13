@@ -110,6 +110,8 @@ header nav li a:hover {
   margin-top: 63px;
   background-color: #55c0ec;
   text-align: center;
+  padding-top:120px;
+  padding-bottom:120px;
 }
 
 .about-container h1 {
@@ -270,6 +272,13 @@ code {
 
 }
 
+.title-works {
+  font-size: 2.00em;
+  letter-spacing: -.125rem;
+  line-height: 1.25;
+  justify-self: center;
+}
+
 .section-title {
   display: block;
 
@@ -335,9 +344,6 @@ code {
 /* Start using tickybot today section */
 .start-using-tickybot-today-section {
   display: block;
-  font-family: signika;
-  font-weight: 300;
-  font-size: 1.25rem;
   margin: 0 auto;
   text-align: center;
 
