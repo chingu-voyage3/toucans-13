@@ -20,7 +20,7 @@ body {
 }
 
 .spacer {
-  height: 140px;
+  height: 40px;
 }
 .spacer-small {
   height: 60px;
@@ -198,7 +198,7 @@ header nav li a:hover {
    display: grid;
    grid-template-columns: repeat(12, 1fr);
    grid-template-rows: repeat(3, 1fr);
-   grid-row-gap: 55px;
+   grid-row-gap: 25px;
    grid-column-gap: 30px;
    margin: 0 auto;
    line-height: 1.5;
@@ -207,7 +207,7 @@ header nav li a:hover {
  }
 
  .title {
-   grid-column: 6/8;
+   grid-column: 5/9;
    grid-row: 1/2;
    font-size: 2.00em;
    letter-spacing: -.125rem;
