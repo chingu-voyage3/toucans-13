@@ -10,10 +10,10 @@ For our chingu voyage project, we decided to clone the [tickybot](https://tickyb
 ## Our Stack:
 - HTML5
 - CSS3
-Flexbox
-Grid
--Javascript
-JQuery
+  - Flexbox
+  - Grid
+- Javascript
+  - JQuery
 
 ## Live Version:
 [Github Live page](https://chingu-voyage3.github.io/toucans-13/)
